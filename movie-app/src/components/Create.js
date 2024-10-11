@@ -1,7 +1,7 @@
 import React from 'react';
 
+// Create component
 const Create = () => {
-
     // Returns the relevant message
     return (
         <div>

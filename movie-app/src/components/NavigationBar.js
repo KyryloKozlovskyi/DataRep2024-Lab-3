@@ -4,7 +4,7 @@ import Navbar from 'react-bootstrap/Navbar';
 
 // NavigationBar component
 const NavigationBar = () => {
-  // Links different pages. Home, Create, Read
+  // Links Home, Create, Read pages through the NavBar
   return (
     <Navbar bg="dark" data-bs-theme="dark">
       <Container>

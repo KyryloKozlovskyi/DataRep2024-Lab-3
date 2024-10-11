@@ -1,10 +1,10 @@
 import React from 'react';
 import Movies from './Movies';
 
+// Read Component
 const Read = () => {
-
+    // Array of movie data stored in JSON
     const data = [
-
         {
             "Title": "Avengers: Infinity War",
             "Year": "2018",
@@ -28,11 +28,11 @@ const Read = () => {
         }
 
     ]
-    // Returns the relevant message
+    // Returns the relevant message and the movie array
     return (
         <div>
             <h3>Hello from the Read component</h3>
-            <Movies myMovies={data}/>
+            <Movies myMovies={data} />
         </div>
     );
 }
