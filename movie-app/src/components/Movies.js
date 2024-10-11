@@ -1,14 +1,14 @@
 import React from 'react';
+import MovieItem from './MovieItem';
 
 const Movies = (props) => {
 
-    // Returns the relevant message
-    return (
-        <div>
-            movies component
-            {console.log(props.myMovies)}
-        </div>
-    );
+    // Individual elements pulled out of the array
+    return props.myMovies.map(
+        (movie) => {
+            return <MovieItem myMovie={movie} key={movie.imdbID} />
+        }
+    )
 }
 
 export default Movies; // Exports the component
