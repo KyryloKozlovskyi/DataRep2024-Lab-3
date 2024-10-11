@@ -1,4 +1,5 @@
 import React from 'react';
+import Movies from './Movies';
 
 const Read = () => {
 
@@ -31,7 +32,7 @@ const Read = () => {
     return (
         <div>
             <h3>Hello from the Read component</h3>
-            <p></p>
+            <Movies myMovies={data}/>
         </div>
     );
 }
