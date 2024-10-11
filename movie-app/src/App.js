@@ -9,6 +9,8 @@ import Read from './components/Read';
 import Create from './components/Create';
 function App() {
   // Main page. Client side routing.
+  // Navigates between different pages. 
+  // home -> Content component, read -> Read component, create -> Create component                                     
   return (
     <Router>
       <NavigationBar />
